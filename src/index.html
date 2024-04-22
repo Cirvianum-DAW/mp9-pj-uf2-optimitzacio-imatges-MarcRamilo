@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PHOTOGRAPHY MARC</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('../src/IMAGES/landscape.jpg');
+      background-size: cover;
+      background-position: center;
+      animation: flash 2s ease-in;
+    }
+
+    @keyframes flash {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 2;
+      }
+    }
+  </style>
+</head>
+
+<body class="flex justify-center items-center h-screen relative">
+  <div class="text-center">
+    <a href="../src/HTML/home.html">
+      <img src="../src/IMAGES/logo_bg_white.png" class="mx-auto rounded-full w-60 h-40">
+    </a>
+  </div>
+</body>
+
+</html>
