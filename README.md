@@ -12,7 +12,7 @@ Us deixo alguns exemples de webs realitzades pels vostres companys i que us pode
 - [Restaurant - A. Luna](https://main--pjuf2aaronluna.netlify.app/)
 
 Anem a veure què haureu de realitzar en aquest projecte amb el que tancarem la UF2:
-
+ 
 ## Project Goals
 
 - Add the multimedia resources to a web project (images, videos, etc.).
