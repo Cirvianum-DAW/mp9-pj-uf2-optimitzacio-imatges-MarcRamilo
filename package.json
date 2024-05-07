@@ -13,7 +13,7 @@
     "html",
     "javascript"
   ],
-  "author": "El teu nom",
+  "author": "Marc Ramilo Garrido",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-postcss": "^2.10.0",
@@ -29,8 +29,5 @@
     "tailwindcss": "^3.4.3",
     "util": "^0.12.5",
     "vm-browserify": "^1.1.2"
-  },
-  "dependencies": {
-    "sharp": "^0.33.3"
   }
 }
