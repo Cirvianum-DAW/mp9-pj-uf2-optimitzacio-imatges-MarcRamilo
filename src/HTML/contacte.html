@@ -7,7 +7,8 @@
     <title>Contact</title>
     <link rel="stylesheet" href="../styles.css" />
     <script src="../SCRIPTS/scripts.js"></script>
-
+    <script src="/src/SCRIPTS/sharp.js" type="module"></script>
+    <script srC="/src/SCRIPTS/validations.js"></script>
 </head>
 
 <body>
@@ -61,22 +62,25 @@
     <div class="container mx-auto my-8 p-8 bg-white shadow-md max-w-md rounded-md">
         <h1 class="font-mono text-2xl font-bold mb-4">Contact</h1>
 
-        <form action="https://formspree.io/f/mjvdvybk" method="post">
+        <form action="https://formspree.io/f/mjvdvybk" method="post" novalidate>
             <div class="mb-4">
                 <label for="nombre" class="font-mono block text-sm font-semibold text-gray-600">Name</label>
                 <input type="text" id="nombre" name="nombre" class="font-mono w-full p-2 border border-gray-300 rounded">
+                <div class="error-msg"></div> <!-- Espai per al missatge d'error -->
             </div>
-
+            
             <div class="mb-4">
                 <label for="email" class="font-mono block text-sm font-semibold text-gray-600">Mail</label>
                 <input type="email" id="email" name="email" class="font-mono w-full p-2 border border-gray-300 rounded">
+                <div class="error-msg"></div> <!-- Espai per al missatge d'error -->
             </div>
-
+            
             <div class="mb-4">
-                <label for="messaje" class="font-mono block text-sm font-semibold text-gray-600">Messaje</label>
-                <textarea id="messaje" name="mensaje" rows="4"
-                    class="w-full p-2 border border-gray-300 rounded"></textarea>
+                <label for="messaje" class="font-mono block text-sm font-semibold text-gray-600">Message</label>
+                <textarea id="messaje" name="mensaje" rows="4" class="w-full p-2 border border-gray-300 rounded"></textarea>
+                <div class="error-msg"></div> <!-- Espai per al missatge d'error -->
             </div>
+            
 
             <button type="submit" class="font-mono bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Submit</button>
         </form>
