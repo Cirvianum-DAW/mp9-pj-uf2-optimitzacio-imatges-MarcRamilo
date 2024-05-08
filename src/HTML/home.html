@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="../styles.css" />
     <script src="../SCRIPTS/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
   </head>
 
   <body>
@@ -17,6 +18,7 @@
       >
         <a href="../index.html" class="flex items-center space-x-2">
           <img src="../IMAGES/logo_photo_marc.svg" class="w-30 h-20" />
+
         </a>
         <button
           data-collapse-toggle="navbar-default"
@@ -91,8 +93,9 @@
       <img
         src="../IMAGES/home.webp"
         alt="Platja posta de sol"
-        class="w-full h-auto object-cover"
+        class="w-full h-auto object-cover thumbnail"
       />
+
       <div class="absolute inset-0 flex flex-col items-center justify-center">
         <h1
           class="font-mono text-white font-bold text-2xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-4"
@@ -100,10 +103,15 @@
           FEEL THE MOMENT
         </h1>
         <a href="#bloc" class="zoom-animation">
-            <svg class="font-mono w-14 h-14 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                viewBox="0 0 17 14">
-                <path fill="#fff" d="M1 5l8 7 8-7H1z" />
-            </svg>
+          <svg
+            class="font-mono w-14 h-14 text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path fill="#fff" d="M1 5l8 7 8-7H1z" />
+          </svg>
         </a>
       </div>
     </div>
@@ -322,7 +330,19 @@
       transform: scale(1); /* Tamaño original */
     }
     100% {
-      transform: scale(5); /* Zoom in */
+      transform: scale(2); /* Zoom in */
     }
   }
 </style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var image = document.getElementsByClassName('thumbnail');
+    new simpleParallax(image, {
+      scale: 1.2, // ajusta el factor de escala según tus necesidades
+      orientation: 'up', // ajusta la orientación del efecto de paralaje
+      delay: 0.4, // ajusta el retraso en la animación
+      transition: 'cubic-bezier(0,0,0,1)' // ajusta la transición de la animación
+    });
+  });
+</script>
