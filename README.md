@@ -1,3 +1,20 @@
+UF2:
+Introducció
+La idea d’aquest projecte és millorar la web feta a la UF1. Per tant de fer-ho és millorarà:
+-El rendiment de les imatges canviant el format a formats més moderns: webpj,avif,svg,... i el pes reduint el tamany i augmentant la velocitat.
+-S’afegirà una animació
+-S’automatizaràn les imatges amb Imagemin o Sharp o Parcel
+-És farà ús de clip-path, srcset, picture
+
+Pàgina antiga
+https://projecttailwindphotosmarc.vercel.app/ 
+Pàgina nova
+https://projecteuf2m9photographymarc.netlify.app/
+Documentació:
+
+
+
+
 SiteMap: GlooMaps - https://www.gloomaps.com/Q3P2eQk66Q
 WireFrame: Figma - https://www.figma.com/file/mzyvfjZJ7fvwdBAYPmIedx/WireFramer-%E2%80%93-Quick-wireframing-library-(Community)?type=design&node-id=15%3A2725&mode=design&t=Rg9yC2VGBvT0rAc9-1 
 Doucmentation: https://drive.google.com/file/d/1lKGZaVTOjclv1omqgv9HAfsJ2s_1wiOb/view?usp=sharing 
