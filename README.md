@@ -1,16 +1,32 @@
-UF2:
-Introducció
-La idea d’aquest projecte és millorar la web feta a la UF1. Per tant de fer-ho és millorarà:
--El rendiment de les imatges canviant el format a formats més moderns: webpj,avif,svg,... i el pes reduint el tamany i augmentant la velocitat.
--S’afegirà una animació
--S’automatizaràn les imatges amb Imagemin o Sharp o Parcel
--És farà ús de clip-path, srcset, picture
+# UF2: Introducció
 
-Pàgina antiga
-https://projecttailwindphotosmarc.vercel.app/ 
-Pàgina nova
-https://projecteuf2m9photographymarc.netlify.app/
+La idea d'aquest projecte és millorar la web feta a la UF1. Per tant, es millorarà:
+
+- El rendiment de les imatges canviant el format a formats més moderns: `webp`, `avif`, `svg`,... i el pes reduint el tamany i augmentant la velocitat.
+- S'afegirà una animació.
+- S'automatitzaran les imatges amb Imagemin, Sharp o Parcel.
+- Es farà ús de `clip-path`, `srcset`, `picture`.
+
+## Pàgina antiga
+[https://projecttailwindphotosmarc.vercel.app/](https://projecttailwindphotosmarc.vercel.app/)
+
+## Pàgina nova
+[https://projecteuf2m9photographymarc.netlify.app/](https://projecteuf2m9photographymarc.netlify.app/)
+
 Documentació:
+[https://drive.google.com/file/d/1va_W_kOre3kH07XHhtK2xyXbmh0z6QK0/view?usp=drive_link]
+
+## Video - Youtube
+[https://youtu.be/t8ASlsD7Xjc]
+
+
+
+
+
+
+
+
+
 
 
 
