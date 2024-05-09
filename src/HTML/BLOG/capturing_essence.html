@@ -72,7 +72,17 @@
     </div>
     <!-- NAVEGACIÓ -->
     <div class="relative">
-        <img src="../../IMAGES/animals.jpg" alt="Playa" class="w-full h-auto object-cover">
+        <!-- Specify different image sources for different screen sizes -->
+        <picture>
+            <!-- Small screens -->
+            <source srcset="../../IMAGES/animals_small.webp" media="(max-width: 640px)">
+            <!-- Medium screens -->
+            <source srcset="../../IMAGES/animals_medium.webp" media="(max-width: 1024px)">
+            <!-- Large screens -->
+            <source srcset="../../IMAGES/animals_large.webp">
+            <!-- Fallback for older browsers -->
+            <img src="../../IMAGES/animals.jpg" alt="Playa" class="w-full h-auto object-cover">
+        </picture>
         <div class="absolute inset-0 flex flex-col items-center justify-center">
             <h1 class="font-mono text-white font-bold text-2xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-4">
                 CAPTURING ESSENCE</h1>
@@ -84,6 +94,7 @@
             </a>
         </div>
     </div>
+    
     <div class="m-4" id="article">
         <section class="font-mono text-gray-700 space-y-6 container mx-auto my-8 max-w-2xl">
             <p class="font-mono mb-4">Nature photography is a captivating art that allows us to connect with the beauty of the
